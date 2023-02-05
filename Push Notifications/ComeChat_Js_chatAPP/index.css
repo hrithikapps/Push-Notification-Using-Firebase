@@ -1,0 +1,51 @@
+#chat-card {
+  display: flex;
+}
+#conversation-card {
+  border: 1px solid lightgrey;
+  min-height: 600px;
+  max-height: 600px;
+  min-width: 300px;
+  overflow-y: scroll;
+}
+#chat {
+  border: 1px solid red;
+  height: 600px;
+  width: 500px;
+  overflow-x: scroll;
+}
+.usernames {
+  border: 1px solid lightgrey;
+  padding: 10px 10px 10px 100px;
+  margin-bottom: 5px;
+}
+.usernames:hover {
+  cursor: pointer;
+}
+#individualName {
+  padding: 15px;
+  border: 1px solid black;
+}
+#messagesDIV {
+  border: 1px solid yellowgreen;
+  padding: 10px;
+  min-height: 485px;
+}
+#sendmessageDiv {
+  border: 1px solid black;
+  /* position:relative; */
+}
+
+#sendmessageDiv {
+  position: bottom;
+  bottom: 0;
+}
+/* #chat-card {
+  border: 1px solid blue;
+  height: 600px;
+  width: 500px;
+  overflow-x: scroll;
+} */
+/* #allConversations{ */
+  /* border:2px solid black; */
+/* } */
